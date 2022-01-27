@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>The One with a Calculator</h1>
+            <div class="calculator">
+                <h1>Calculator</h1>
+            <p id="result"></p>
+    <table>
+        <tr>
+            <td><button class="button" onClick="clean()">C</button></td>
+            <td><button class="button" onClick="back()"><</button></td>
+            <td><button class="button" onClick="insert('/')">/</button></td>
+            <td><button class="button" onClick="insert('*')">X</button></td>
+            </td>
+        </tr>
+        <tr>
+            <td><button class="button" onClick="insert('7')">7</button></td>
+            <td><button class="button" onClick="insert('8')">8</button></td>
+            <td><button class="button" onClick="insert('9')">9</button></td>
+            <td><button class="button" onClick="insert('-')">-</button></td>
+            </td>
+        </tr>
+        <tr>
+            <td><button class="button" onClick="insert('4')">4</button></td>
+            <td><button class="button" onClick="insert('5')">5</button></td>
+            <td><button class="button" onClick="insert('6')">6</button></td>
+            <td><button class="button" onClick="insert('+')">+</button></td>
+            </td>
+        </tr>
+        <tr>
+            <td><button class="button" onClick="insert('1')">1</button></td>
+            <td><button class="button" onClick="insert('2')">2</button></td>
+            <td><button class="button" onClick="insert('3')">3</button></td>
+            <td rowspan="2"><button class="button" style ="height: 106px" onClick="equal">=</button></td>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="button" style="width: 106px" onClick="insert('0')">0</button></td>
+            <td><button class="button" onClick="insert('.')">.</button></td>
+        </tr>   
+    </table>
+</body>
+</html>
